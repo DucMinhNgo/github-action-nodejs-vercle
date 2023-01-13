@@ -1,0 +1,5 @@
+{
+  "Env": "ENV",
+  "ShortSHA": "SHORT_SHA",
+  "ServiceName": "DustinProCoreApi"
+}
