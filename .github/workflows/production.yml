@@ -18,3 +18,5 @@ jobs:
           echo "SHORT_SHA=`echo ${GITHUB_SHA} | cut -c1-7`" >> $GITHUB_ENV
           sed -i 's/SHORT_SHA/'`echo ${GITHUB_SHA} | cut -c1-7`'/g' ./version.json
           sed -i 's/ENV/'"$BUILD_ENV"'/g' ./version.json
+      - name: Build the Docker image
+        run: docker build -t dustin-nodejs-image .
