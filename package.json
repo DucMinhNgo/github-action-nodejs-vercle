@@ -1,0 +1,11 @@
+{
+  "name": "elk-node-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "elasticsearch": "^16.7.3",
+    "express": "^4.18.2",
+    "get-json": "^1.0.1"
+  }
+}
