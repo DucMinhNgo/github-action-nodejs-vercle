@@ -4,7 +4,7 @@ var router = express.Router();
 /* GET users listing. */
 router.get('/', function(req, res, next) {
   // res.send('respond with a resource users');
-  res.json({ name: 'Dustin pro nodemon jenkins hihi.' });
+  res.json({ name: 'Dustin pro nodemon jenkins tada.' });
 });
 
 module.exports = router;
